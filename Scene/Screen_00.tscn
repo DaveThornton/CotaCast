@@ -12,7 +12,6 @@ font_data = ExtResource( 6 )
 
 [node name="Screen_00" type="Node2D"]
 script = ExtResource( 1 )
-screen_time = 2.0
 list = "res://CSV/Draft_List.csv"
 list_length = 10
 
@@ -27,58 +26,59 @@ scale = Vector2( 0.610199, 0.610199 )
 texture = ExtResource( 2 )
 
 [node name="List_vbox" type="VBoxContainer" parent="."]
-margin_top = 803.0
-margin_right = 1080.0
-margin_bottom = 1840.0
+margin_top = 766.0
+margin_right = 1104.0
+margin_bottom = 1902.0
 script = ExtResource( 5 )
 
 [node name="Name_ABV_Price_00" parent="List_vbox" instance=ExtResource( 3 )]
 margin_right = 1104.0
+margin_bottom = 110.0
 
 [node name="Name_ABV_Price_01" parent="List_vbox" instance=ExtResource( 3 )]
-margin_top = 104.0
+margin_top = 114.0
 margin_right = 1104.0
-margin_bottom = 204.0
+margin_bottom = 224.0
 
 [node name="Name_ABV_Price_02" parent="List_vbox" instance=ExtResource( 3 )]
-margin_top = 208.0
+margin_top = 228.0
 margin_right = 1104.0
-margin_bottom = 308.0
+margin_bottom = 338.0
 
 [node name="Name_ABV_Price_03" parent="List_vbox" instance=ExtResource( 3 )]
-margin_top = 312.0
+margin_top = 342.0
 margin_right = 1104.0
-margin_bottom = 412.0
+margin_bottom = 452.0
 
 [node name="Name_ABV_Price_04" parent="List_vbox" instance=ExtResource( 3 )]
-margin_top = 416.0
+margin_top = 456.0
 margin_right = 1104.0
-margin_bottom = 516.0
+margin_bottom = 566.0
 
 [node name="Name_ABV_Price_05" parent="List_vbox" instance=ExtResource( 3 )]
-margin_top = 520.0
+margin_top = 570.0
 margin_right = 1104.0
-margin_bottom = 620.0
+margin_bottom = 680.0
 
 [node name="Name_ABV_Price_06" parent="List_vbox" instance=ExtResource( 3 )]
-margin_top = 624.0
+margin_top = 684.0
 margin_right = 1104.0
-margin_bottom = 724.0
+margin_bottom = 794.0
 
 [node name="Name_ABV_Price_07" parent="List_vbox" instance=ExtResource( 3 )]
-margin_top = 728.0
+margin_top = 798.0
 margin_right = 1104.0
-margin_bottom = 828.0
+margin_bottom = 908.0
 
 [node name="Name_ABV_Price_08" parent="List_vbox" instance=ExtResource( 3 )]
-margin_top = 832.0
+margin_top = 912.0
 margin_right = 1104.0
-margin_bottom = 932.0
+margin_bottom = 1022.0
 
 [node name="Name_ABV_Price_09" parent="List_vbox" instance=ExtResource( 3 )]
-margin_top = 936.0
+margin_top = 1026.0
 margin_right = 1104.0
-margin_bottom = 1036.0
+margin_bottom = 1136.0
 
 [node name="Label" type="Label" parent="."]
 margin_left = 13.0

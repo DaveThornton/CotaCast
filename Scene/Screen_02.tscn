@@ -4,7 +4,6 @@
 
 [node name="Screen_02_Picture" type="Node2D"]
 script = ExtResource( 1 )
-screen_time = 2.0
 
 [node name="Sprite" type="Sprite" parent="."]
 offset = Vector2( 540, 960 )
