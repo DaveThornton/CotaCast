@@ -7,7 +7,7 @@
 [ext_resource path="res://Themes/LEMONMILK-Regular.otf" type="DynamicFontData" id=6]
 
 [sub_resource type="DynamicFont" id=1]
-size = 200
+size = 172
 font_data = ExtResource( 6 )
 
 [node name="Screen_00" type="Node2D"]
@@ -32,52 +32,41 @@ margin_bottom = 1902.0
 script = ExtResource( 5 )
 
 [node name="Name_ABV_Price_00" parent="List_vbox" instance=ExtResource( 3 )]
-margin_right = 1104.0
-margin_bottom = 110.0
 
 [node name="Name_ABV_Price_01" parent="List_vbox" instance=ExtResource( 3 )]
 margin_top = 114.0
-margin_right = 1104.0
 margin_bottom = 224.0
 
 [node name="Name_ABV_Price_02" parent="List_vbox" instance=ExtResource( 3 )]
 margin_top = 228.0
-margin_right = 1104.0
 margin_bottom = 338.0
 
 [node name="Name_ABV_Price_03" parent="List_vbox" instance=ExtResource( 3 )]
 margin_top = 342.0
-margin_right = 1104.0
 margin_bottom = 452.0
 
 [node name="Name_ABV_Price_04" parent="List_vbox" instance=ExtResource( 3 )]
 margin_top = 456.0
-margin_right = 1104.0
 margin_bottom = 566.0
 
 [node name="Name_ABV_Price_05" parent="List_vbox" instance=ExtResource( 3 )]
 margin_top = 570.0
-margin_right = 1104.0
 margin_bottom = 680.0
 
 [node name="Name_ABV_Price_06" parent="List_vbox" instance=ExtResource( 3 )]
 margin_top = 684.0
-margin_right = 1104.0
 margin_bottom = 794.0
 
 [node name="Name_ABV_Price_07" parent="List_vbox" instance=ExtResource( 3 )]
 margin_top = 798.0
-margin_right = 1104.0
 margin_bottom = 908.0
 
 [node name="Name_ABV_Price_08" parent="List_vbox" instance=ExtResource( 3 )]
 margin_top = 912.0
-margin_right = 1104.0
 margin_bottom = 1022.0
 
 [node name="Name_ABV_Price_09" parent="List_vbox" instance=ExtResource( 3 )]
 margin_top = 1026.0
-margin_right = 1104.0
 margin_bottom = 1136.0
 
 [node name="Label" type="Label" parent="."]
@@ -86,7 +75,8 @@ margin_top = 518.0
 margin_right = 1075.0
 margin_bottom = 784.0
 custom_fonts/font = SubResource( 1 )
-text = "on Draft"
+text = "Draft"
+align = 1
 
 [node name="Timer" type="Timer" parent="."]
 one_shot = true

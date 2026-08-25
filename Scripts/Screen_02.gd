@@ -7,9 +7,6 @@ onready var sprite = $Sprite
 
 var current_image_index:int = 0
 
-# func _ready():
-	# sprite.texture = load_image("res://GFX/Advert/El_Jefe.png")
-	
 func my_turn():
 	load_next_image()
 	self.visible = true
@@ -46,7 +43,6 @@ func load_image(file_path:String):
 	else:
 		print("Failed to load image: " + file_path)
 		return null
-
 
 func _on_Timer_timeout():
 	self.visible = false

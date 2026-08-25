@@ -7,7 +7,7 @@
 [ext_resource path="res://Themes/LEMONMILK-Regular.otf" type="DynamicFontData" id=6]
 
 [sub_resource type="DynamicFont" id=1]
-size = 147
+size = 140
 font_data = ExtResource( 6 )
 
 [node name="Screen_01" type="Node2D"]
@@ -21,7 +21,7 @@ margin_bottom = 1920.0
 color = Color( 0, 0, 0, 1 )
 
 [node name="BeerPizzaMohawkJustLogoCleanWhite" type="Sprite" parent="."]
-position = Vector2( 142, 138 )
+position = Vector2( 146, 143 )
 scale = Vector2( 0.317849, 0.317849 )
 texture = ExtResource( 2 )
 
@@ -32,79 +32,64 @@ margin_bottom = 2049.0
 script = ExtResource( 5 )
 
 [node name="Name_ABV_Price_00" parent="List_vbox" instance=ExtResource( 3 )]
-margin_right = 1104.0
-margin_bottom = 110.0
 
 [node name="Name_ABV_Price_01" parent="List_vbox" instance=ExtResource( 3 )]
 margin_top = 114.0
-margin_right = 1104.0
 margin_bottom = 224.0
 
 [node name="Name_ABV_Price_02" parent="List_vbox" instance=ExtResource( 3 )]
 margin_top = 228.0
-margin_right = 1104.0
 margin_bottom = 338.0
 
 [node name="Name_ABV_Price_03" parent="List_vbox" instance=ExtResource( 3 )]
 margin_top = 342.0
-margin_right = 1104.0
 margin_bottom = 452.0
 
 [node name="Name_ABV_Price_04" parent="List_vbox" instance=ExtResource( 3 )]
 margin_top = 456.0
-margin_right = 1104.0
 margin_bottom = 566.0
 
 [node name="Name_ABV_Price_05" parent="List_vbox" instance=ExtResource( 3 )]
 margin_top = 570.0
-margin_right = 1104.0
 margin_bottom = 680.0
 
 [node name="Name_ABV_Price_06" parent="List_vbox" instance=ExtResource( 3 )]
 margin_top = 684.0
-margin_right = 1104.0
 margin_bottom = 794.0
 
 [node name="Name_ABV_Price_07" parent="List_vbox" instance=ExtResource( 3 )]
 margin_top = 798.0
-margin_right = 1104.0
 margin_bottom = 908.0
 
 [node name="Name_ABV_Price_08" parent="List_vbox" instance=ExtResource( 3 )]
 margin_top = 912.0
-margin_right = 1104.0
 margin_bottom = 1022.0
 
 [node name="Name_ABV_Price_09" parent="List_vbox" instance=ExtResource( 3 )]
 margin_top = 1026.0
-margin_right = 1104.0
 margin_bottom = 1136.0
 
 [node name="Name_ABV_Price_10" parent="List_vbox" instance=ExtResource( 3 )]
 margin_top = 1140.0
-margin_right = 1104.0
 margin_bottom = 1250.0
 
 [node name="Name_ABV_Price_11" parent="List_vbox" instance=ExtResource( 3 )]
 margin_top = 1254.0
-margin_right = 1104.0
 margin_bottom = 1364.0
 
 [node name="Name_ABV_Price_12" parent="List_vbox" instance=ExtResource( 3 )]
 margin_top = 1368.0
-margin_right = 1104.0
 margin_bottom = 1478.0
 
 [node name="Name_ABV_Price_13" parent="List_vbox" instance=ExtResource( 3 )]
 margin_top = 1482.0
-margin_right = 1104.0
 margin_bottom = 1592.0
 
 [node name="Label" type="Label" parent="."]
-margin_left = 130.0
-margin_top = 48.0
-margin_right = 1192.0
-margin_bottom = 274.0
+margin_left = 137.0
+margin_top = 51.0
+margin_right = 1199.0
+margin_bottom = 277.0
 custom_fonts/font = SubResource( 1 )
 text = "Tall Boys"
 align = 1
