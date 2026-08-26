@@ -8,7 +8,7 @@ var screens:int = 0
 var current_screen:int = 0
 
 func _ready():
-	screens = self.get_child_count() + 1
+	screens = (self.get_child_count() - 1) * 2
 	next_screen()
 
 func next_screen():
@@ -20,6 +20,10 @@ func next_screen():
 		1:picture_screen.my_turn()
 		2:tall_screen.my_turn()
 		3:picture_screen.my_turn()
+		4:draft_screen.my_turn()
+		5:picture_screen.my_turn()
+		6:tall_screen.my_turn()
+		7:picture_screen.my_turn()
 		_:draft_screen.my_turn()
 
 func _input(event):
