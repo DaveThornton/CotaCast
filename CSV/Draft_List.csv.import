@@ -1,16 +1,3 @@
 [remap]
 
-importer="csv_translation"
-type="Translation"
-
-[deps]
-
-files=[ "res://CSV/Draft_List.Georgetown.translation", "res://CSV/Draft_List.IPA.translation", "res://CSV/Draft_List.6.9.translation", "res://CSV/Draft_List.7.translation" ]
-
-source_file="res://CSV/Draft_List.csv"
-dest_files=[ "res://CSV/Draft_List.Georgetown.translation", "res://CSV/Draft_List.IPA.translation", "res://CSV/Draft_List.6.9.translation", "res://CSV/Draft_List.7.translation" ]
-
-[params]
-
-compress=true
-delimiter=0
+importer="keep"

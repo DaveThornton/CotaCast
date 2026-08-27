@@ -10,5 +10,11 @@ func set_name_abv_price(short_list:Array):
 	name_label.text = short_list[0]
 	brew_label.text = short_list[1]
 	type_label.text = short_list[2]
-	abv_label.text = short_list[3] + "%"
-	price_label.text = "$" +short_list[4]
+	if short_list[3] == "":
+		abv_label.text = ""
+	else:
+		abv_label.text = short_list[3] + "%"
+	if short_list[4] == "":
+		price_label.text = ""
+	else:
+		price_label.text = "$" + short_list[4]
