@@ -15,7 +15,7 @@ func my_turn():
 func load_next_image():
 	var textures = []
 	var dir = Directory.new()
-	if dir.open("res://GFX/Advert") == OK:
+	if dir.open("res://GFX/Special/") == OK:
 		dir.list_dir_begin()
 		var file_name = dir.get_next()
 		while file_name != "":
@@ -23,7 +23,7 @@ func load_next_image():
 				pass
 			else:
 				if file_name.to_lower().ends_with(".png") or file_name.to_lower().ends_with(".jpg"):
-					textures.append(load_image("res://GFX/Advert/" + file_name))
+					textures.append(load_image("res://GFX/Special/" + file_name))
 			file_name = dir.get_next()
 		dir.list_dir_end()
 	if textures.size() <= current_image_index + 1:

@@ -3,7 +3,6 @@ extends Node2D
 export var screen_time:float = 60.0
 export var list:String
 export var list_length:int = 0
-
 onready var list_vbox = $List_vbox
 onready var timer = $Timer
 
@@ -21,3 +20,6 @@ func update_list(long_list:Array):
 func _on_Timer_timeout():
 	self.visible = false
 	get_parent().next_screen()
+
+func set_screen_time(new_time:float):
+	screen_time = new_time
