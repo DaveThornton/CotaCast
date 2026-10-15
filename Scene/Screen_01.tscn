@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Scripts/Screen_Type_00.gd" type="Script" id=1]
-[ext_resource path="res://GFX/Beer_Pizza_Mohawk_Just_Logo_Clean_White.png" type="Texture" id=2]
+[ext_resource path="res://GFX/Logo_01.png" type="Texture" id=2]
 [ext_resource path="res://Scene/Name_ABV_Price.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Scripts/List_vbox.gd" type="Script" id=5]
 [ext_resource path="res://Themes/LEMONMILK-Regular.otf" type="DynamicFontData" id=6]
@@ -13,7 +13,6 @@ font_data = ExtResource( 6 )
 [node name="Screen_01" type="Node2D"]
 script = ExtResource( 1 )
 list = "res://CSV/Tall_List.csv"
-list_length = 14
 
 [node name="ColorRect" type="ColorRect" parent="."]
 margin_right = 1080.0
@@ -32,58 +31,59 @@ margin_bottom = 2049.0
 script = ExtResource( 5 )
 
 [node name="Name_ABV_Price_00" parent="List_vbox" instance=ExtResource( 3 )]
+margin_bottom = 107.0
 
 [node name="Name_ABV_Price_01" parent="List_vbox" instance=ExtResource( 3 )]
-margin_top = 114.0
-margin_bottom = 224.0
+margin_top = 111.0
+margin_bottom = 218.0
 
 [node name="Name_ABV_Price_02" parent="List_vbox" instance=ExtResource( 3 )]
-margin_top = 228.0
-margin_bottom = 338.0
+margin_top = 222.0
+margin_bottom = 329.0
 
 [node name="Name_ABV_Price_03" parent="List_vbox" instance=ExtResource( 3 )]
-margin_top = 342.0
-margin_bottom = 452.0
+margin_top = 333.0
+margin_bottom = 440.0
 
 [node name="Name_ABV_Price_04" parent="List_vbox" instance=ExtResource( 3 )]
-margin_top = 456.0
-margin_bottom = 566.0
+margin_top = 444.0
+margin_bottom = 551.0
 
 [node name="Name_ABV_Price_05" parent="List_vbox" instance=ExtResource( 3 )]
-margin_top = 570.0
-margin_bottom = 680.0
+margin_top = 555.0
+margin_bottom = 662.0
 
 [node name="Name_ABV_Price_06" parent="List_vbox" instance=ExtResource( 3 )]
-margin_top = 684.0
-margin_bottom = 794.0
+margin_top = 666.0
+margin_bottom = 773.0
 
 [node name="Name_ABV_Price_07" parent="List_vbox" instance=ExtResource( 3 )]
-margin_top = 798.0
-margin_bottom = 908.0
+margin_top = 777.0
+margin_bottom = 884.0
 
 [node name="Name_ABV_Price_08" parent="List_vbox" instance=ExtResource( 3 )]
-margin_top = 912.0
-margin_bottom = 1022.0
+margin_top = 888.0
+margin_bottom = 995.0
 
 [node name="Name_ABV_Price_09" parent="List_vbox" instance=ExtResource( 3 )]
-margin_top = 1026.0
-margin_bottom = 1136.0
+margin_top = 999.0
+margin_bottom = 1106.0
 
 [node name="Name_ABV_Price_10" parent="List_vbox" instance=ExtResource( 3 )]
-margin_top = 1140.0
-margin_bottom = 1250.0
+margin_top = 1110.0
+margin_bottom = 1217.0
 
 [node name="Name_ABV_Price_11" parent="List_vbox" instance=ExtResource( 3 )]
-margin_top = 1254.0
-margin_bottom = 1364.0
+margin_top = 1221.0
+margin_bottom = 1328.0
 
 [node name="Name_ABV_Price_12" parent="List_vbox" instance=ExtResource( 3 )]
-margin_top = 1368.0
-margin_bottom = 1478.0
+margin_top = 1332.0
+margin_bottom = 1439.0
 
 [node name="Name_ABV_Price_13" parent="List_vbox" instance=ExtResource( 3 )]
-margin_top = 1482.0
-margin_bottom = 1592.0
+margin_top = 1443.0
+margin_bottom = 1550.0
 
 [node name="Label" type="Label" parent="."]
 margin_left = 137.0

@@ -1,0 +1,18 @@
+##,list line length(5_min 17_max), display time, logo number, list heading,backgroung color in r,g,b,Font color in r,g,b,logo modulate r,g,b
+$$,9,59.9,1,Tall Cans, 0,0,0, 255,0,255, 255,255,255
+##
+##,beer name, brewery, style, abv, price
+Thora's Hammer,ilk,IPA,6.4,7
+Color Out of Space,ilk,Hazy IPA,6.66,7
+Reunited,ilk,Hazy IPA,7,7
+Sofa King Mike,ilk,Summer IPA,6,7
+Zealandia,ilk,Hazy NZ IPA,5.9,7
+Fluid Diet,ilk,Modern Pale Ale,7,7
+Under a Free Heaven,ilk,Darmunder Lager,5.4,7
+The Long Pour,ilk,Oly Steam Beer,5,7
+Gris Matter,ilk,Grisette,4,7
+Helsing Junction,ilk,Farmhouse Ale,5.8,7
+Hefe lies the head,ilk,that wears the crown,5,7
+El Jefe,Potlatch,Corn lager,5,7
+Hot Honey Peach,White Wood Cider co.,Cider,6.5,7
+Hawaiian Shirt Guy,White Wood Cider co.,Pineapple Strawberry Cider,6.6,7

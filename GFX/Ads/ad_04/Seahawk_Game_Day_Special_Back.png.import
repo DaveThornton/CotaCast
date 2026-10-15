@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Beer_Pizza_Mohawk_Just_Logo_Clean_White.png-222c968aa4de5820a88e23847cd89737.stex"
+path="res://.import/Seahawk_Game_Day_Special_Back.png-1b605510eb732bcb843fe1ee91e53648.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://GFX/Beer_Pizza_Mohawk_Just_Logo_Clean_White.png"
-dest_files=[ "res://.import/Beer_Pizza_Mohawk_Just_Logo_Clean_White.png-222c968aa4de5820a88e23847cd89737.stex" ]
+source_file="res://GFX/Ads/ad_04/Seahawk_Game_Day_Special_Back.png"
+dest_files=[ "res://.import/Seahawk_Game_Day_Special_Back.png-1b605510eb732bcb843fe1ee91e53648.stex" ]
 
 [params]
 

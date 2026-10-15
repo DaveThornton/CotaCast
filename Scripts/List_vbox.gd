@@ -5,3 +5,7 @@ func update_list(long_list:Array):
 		for i in self.get_child_count():
 			print("Adding new child to list_vbox",long_list[i])
 			self.get_child(i).set_name_abv_price(long_list[i])
+
+func set_color(r:int,g:int,b:int):
+	for child in self.get_children():
+		child.modulate = Color8(r,g,b)

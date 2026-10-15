@@ -18,3 +18,10 @@ func set_name_abv_price(short_list:Array):
 		price_label.text = ""
 	else:
 		price_label.text = "$" + short_list[4]
+
+func set_color(r:int,g:int,b:int):
+	name_label.modulate = Color8(r,g,b)
+	brew_label.modulate = Color8(r,g,b)
+	type_label.modulate = Color8(r,g,b)
+	abv_label.modulate = Color8(r,g,b)
+	price_label.modulate = Color8(r,g,b)

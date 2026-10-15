@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Beer_Pizza_Mohawk_Just_Logo_Clean_Black.png-c2fdb96329b32a8d37584be07265d6d3.stex"
+path="res://.import/Mickeys.png-cffd64b43e6e5dd6e9f0e0704b19d631.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://GFX/Beer_Pizza_Mohawk_Just_Logo_Clean_Black.png"
-dest_files=[ "res://.import/Beer_Pizza_Mohawk_Just_Logo_Clean_Black.png-c2fdb96329b32a8d37584be07265d6d3.stex" ]
+source_file="res://GFX/Ads/ad_01/Mickeys.png"
+dest_files=[ "res://.import/Mickeys.png-cffd64b43e6e5dd6e9f0e0704b19d631.stex" ]
 
 [params]
 

@@ -1,0 +1,14 @@
+##,list line length(5_min 17_max), display time, logo number, list heading,backgroung color in r,g,b,Font color in r,g,b,logo modulate r,g,b
+$$,9,59.9,1,Draft, 0,0,0, 255,0,255, 255,255,255
+##
+##,beer name, brewery, style, abv, price
+Bodhizafa,Georgetown,IPA,6.9,7
+Manny's,Georgetown,Pale Ale,5.5,7
+Oakland Bay,High Steel,IPA,7.1,7
+Coho,3 Magnets,CDA,7.8,7
+African Amber,Mac & Jacks,,5.8,7
+,,,,
+,,,,
+Rainier,,,4.2,4.50
+Coors Light,,,4.2,5.25
+,,,,

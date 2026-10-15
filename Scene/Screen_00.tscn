@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Scripts/Screen_Type_00.gd" type="Script" id=1]
-[ext_resource path="res://GFX/Beer_Pizza_Mohawk_Just_Logo_Clean_White.png" type="Texture" id=2]
+[ext_resource path="res://GFX/Logo_01.png" type="Texture" id=2]
 [ext_resource path="res://Scene/Name_ABV_Price.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Scripts/List_vbox.gd" type="Script" id=5]
 [ext_resource path="res://Themes/LEMONMILK-Regular.otf" type="DynamicFontData" id=6]
@@ -13,7 +13,7 @@ font_data = ExtResource( 6 )
 [node name="Screen_00" type="Node2D"]
 script = ExtResource( 1 )
 list = "res://CSV/Draft_List.csv"
-list_length = 10
+list_length = null
 
 [node name="ColorRect" type="ColorRect" parent="."]
 margin_right = 1080.0

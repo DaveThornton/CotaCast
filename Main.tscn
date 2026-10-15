@@ -1,25 +1,55 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Scripts/Main.gd" type="Script" id=1]
-[ext_resource path="res://Scene/Screen_00.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Scene/Screen_01.tscn" type="PackedScene" id=3]
-[ext_resource path="res://Scene/Screen_02.tscn" type="PackedScene" id=4]
-[ext_resource path="res://Scene/Screen_03.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Scene/Beer_00.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Scene/Ad_00.tscn" type="PackedScene" id=7]
 
 [node name="Main" type="Node2D"]
 script = ExtResource( 1 )
 
-[node name="Screen_00_Draft" parent="." instance=ExtResource( 2 )]
-visible = false
-screen_time = 1.0
+[node name="Beer" type="Node2D" parent="."]
 
-[node name="Screen_01_Tall" parent="." instance=ExtResource( 3 )]
-visible = false
-screen_time = 1.0
-
-[node name="Screen_02_Picture" parent="." instance=ExtResource( 4 )]
+[node name="Beer_00" parent="Beer" instance=ExtResource( 6 )]
 visible = false
 
-[node name="Screen_03_Special" parent="." instance=ExtResource( 5 )]
+[node name="Beer_01" parent="Beer" instance=ExtResource( 6 )]
 visible = false
-screen_time = 1.0
+beer_number = 1
+
+[node name="Beer_02" parent="Beer" instance=ExtResource( 6 )]
+visible = false
+beer_number = 2
+
+[node name="Beer_03" parent="Beer" instance=ExtResource( 6 )]
+visible = false
+beer_number = 3
+
+[node name="Beer_04" parent="Beer" instance=ExtResource( 6 )]
+visible = false
+beer_number = 4
+
+[node name="Beer_05" parent="Beer" instance=ExtResource( 6 )]
+visible = false
+beer_number = 5
+
+[node name="Ad" type="Node2D" parent="."]
+
+[node name="Ad_00" parent="Ad" instance=ExtResource( 7 )]
+
+[node name="Ad_01" parent="Ad" instance=ExtResource( 7 )]
+ad_number = 1
+
+[node name="Ad_02" parent="Ad" instance=ExtResource( 7 )]
+ad_number = 2
+
+[node name="Ad_03" parent="Ad" instance=ExtResource( 7 )]
+ad_number = 3
+
+[node name="Ad_04" parent="Ad" instance=ExtResource( 7 )]
+ad_number = 4
+
+[node name="Ad_05" parent="Ad" instance=ExtResource( 7 )]
+ad_number = 5
+
+[node name="Drink" type="Node2D" parent="."]
+visible = false
