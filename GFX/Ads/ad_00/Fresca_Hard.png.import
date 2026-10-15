@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Mickeys.png-cffd64b43e6e5dd6e9f0e0704b19d631.stex"
+path="res://.import/Fresca_Hard.png-81746831b2f6bc385f41b3ffbfd6ad87.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://GFX/Ads/ad_01/Mickeys.png"
-dest_files=[ "res://.import/Mickeys.png-cffd64b43e6e5dd6e9f0e0704b19d631.stex" ]
+source_file="res://GFX/Ads/ad_00/Fresca_Hard.png"
+dest_files=[ "res://.import/Fresca_Hard.png-81746831b2f6bc385f41b3ffbfd6ad87.stex" ]
 
 [params]
 

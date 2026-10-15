@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Seahawk_Game_Day_Special_Back.png-b8fddf62599ab7c2d996bc51e10965fc.stex"
+path="res://.import/Pub_TNG.png-d616eb5f451cd662191e4ff6e8c59018.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://GFX/Ads/ad_02/Seahawk_Game_Day_Special_Back.png"
-dest_files=[ "res://.import/Seahawk_Game_Day_Special_Back.png-b8fddf62599ab7c2d996bc51e10965fc.stex" ]
+source_file="res://GFX/Ads/ad_00/Pub_TNG.png"
+dest_files=[ "res://.import/Pub_TNG.png-d616eb5f451cd662191e4ff6e8c59018.stex" ]
 
 [params]
 

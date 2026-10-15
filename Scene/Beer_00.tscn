@@ -19,8 +19,8 @@ margin_bottom = 1920.0
 color = Color( 0, 0, 0, 1 )
 
 [node name="Logo" type="Sprite" parent="."]
-position = Vector2( 540, 285 )
-scale = Vector2( 0.65, 0.65 )
+position = Vector2( 148, 137 )
+scale = Vector2( 0.3, 0.3 )
 texture = ExtResource( 2 )
 
 [node name="Label" type="Label" parent="."]
