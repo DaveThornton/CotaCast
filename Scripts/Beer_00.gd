@@ -125,7 +125,7 @@ func get_logo_scale(number:int) -> float:
 		12: return 0.4
 		13: return 0.3
 		14: return 0.3
-		15: return 0.29
+		15: return 0.2
 		16: return 0.01
 		17: return 0.01
 		_: return 0.85
@@ -141,8 +141,8 @@ func get_logo_position(number:int) -> Vector2:
 		11: return Vector2(540,285)
 		12: return Vector2(540,285)
 		13: return Vector2(540,285)
-		14: return Vector2(162,78)
-		15: return Vector2(126,37)
+		14: return Vector2(140,140)
+		15: return Vector2(140,140)
 		16: return Vector2(-500,0)
 		17: return Vector2(-500,0)
 		_: return Vector2(540,0)
