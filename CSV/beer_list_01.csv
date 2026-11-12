@@ -1,18 +1,18 @@
 ##,list line length(5_min 17_max), display time, logo number, list heading,backgroung color in r,g,b,Font color in r,g,b,logo modulate r,g,b
-$$,9,59.9,1,Tall Cans, 0,0,0, 255,0,255, 255,255,255
+$$,14,70,1,Tall Cans, 0,0,0, 255,255,255, 255,255,255
 ##
 ##,beer name, brewery, style, abv, price
 Thora's Hammer,ilk,IPA,6.4,7
-Color Out of Space,ilk,Hazy IPA,6.66,7
-Reunited,ilk,Hazy IPA,7,7
-Sofa King Mike,ilk,Summer IPA,6,7
-Zealandia,ilk,Hazy NZ IPA,5.9,7
-Fluid Diet,ilk,Modern Pale Ale,7,7
-Under a Free Heaven,ilk,Darmunder Lager,5.4,7
-The Long Pour,ilk,Oly Steam Beer,5,7
-Gris Matter,ilk,Grisette,4,7
-Helsing Junction,ilk,Farmhouse Ale,5.8,7
-Hefe lies the head,ilk,that wears the crown,5,7
-El Jefe,Potlatch,Corn lager,5,7
-Hot Honey Peach,White Wood Cider co.,Cider,6.5,7
-Hawaiian Shirt Guy,White Wood Cider co.,Pineapple Strawberry Cider,6.6,7
+All that Citra,ilk,Fresh Hop IPA,5.8,7
+Hefe lies the head,ilk,that wears the crown,5.0,7
+Hechizo De Hombre,ilk,Dark Mexican Lager,4.4,7
+Thrice in a life time,ilk & 3 Magnets,Pale Ale,5.4,7
+Hop Screamer,Matchless,West Coast IPA,6.5,7
+Treat,Matchless,Imperial Milk Stout,9.0,7
+Hop Hunt, Matchless,Hazy IPA,6.2,7
+Love Buzz, Matchless & Mount Olympus,Double IPA,8.2,7
+Hawaiian Shirt Guy 2nd wave,White Wood Cider co.,Pineapple blackberry Boysenberry & Blueberry Cider,6.6,7
+Haymaker's Punch,White Wood Cider co. & Timber Ginger,Cider Switchel Blend,6.3,7
+Strawberry Rhubarb,White Wood Cider co.,Cider,6.3,7
+Black & Boysenberry,White Wood Cider co.,Fruit Cider Spritz,6.6,7
+Red Cap,White Wood Cider co.,Cider,6.9,7

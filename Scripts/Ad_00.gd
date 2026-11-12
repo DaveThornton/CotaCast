@@ -13,7 +13,6 @@ func _ready():
 	main = get_parent().get_parent()
 
 func my_turn():
-	print("Ad screen my_turn() called for ad_number: " + str(ad_number))
 	load_next_image()
 	self.visible = true
 	timer.start(screen_time)

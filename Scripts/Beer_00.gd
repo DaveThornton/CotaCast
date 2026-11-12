@@ -30,7 +30,6 @@ func _ready():
 	main = get_parent().get_parent()
 
 func my_turn():
-	print("Beer list screen my_turn() called for beer_number: " + str(beer_number))
 	self.visible = true
 	update_list(main.load_csv(main.get_beer_list(beer_number)))
 	# update_list(main.load_csv(list))
@@ -39,7 +38,6 @@ func update_list(long_list:Array):
 	vbox_all_out()
 	var settings = long_list.pop_front()
 	timer.start(float(settings[1]))
-	print("Settings: " + str(settings))
 	box = get_box(int(settings[0]))
 	box.update_list(long_list)
 	box.set_color(int(settings[7]),int(settings[8]),int(settings[9]))
@@ -98,7 +96,6 @@ func set_logo_number(logo_number:int):
 	logo.texture = load("res://GFX/Logo_0" + str(logo_number) + ".png")
 
 func get_box(index:int) -> VBoxContainer:
-	print("Getting box for index: " + str(index))
 	match index:
 		5: return list_vbox_05
 		6: return list_vbox_06

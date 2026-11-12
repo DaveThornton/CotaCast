@@ -36,13 +36,11 @@ func load_csv(file_path:String):
 		for _i in range(1000):
 			var line = file.get_csv_line(",")
 			if line == null:
-				print("Reached end of CSV file.")
 				break
 			elif line[0] == "##":
 				pass
 			elif line[0] == "$$":
 				if not settings_set:
-					print("Settings line found: " + str(line))
 					settings_set = true
 					line.remove(0)
 					return_list.insert(0, line)
@@ -63,11 +61,9 @@ func load_settings():
 		for _i in range(20):
 			var line = file.get_csv_line("=")
 			if line == null:
-				print("Reached end of settings file.")
 				break
 			elif line[0] == "screen_order":
 				screen_order = line[1].split(",")
-				print("Screen order set to: " + str(screen_order))
 			elif line[0] == "##":
 				pass
 			elif line[0] == "ad_00_time":
