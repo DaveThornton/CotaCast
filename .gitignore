@@ -14,3 +14,4 @@ export_credentials.cfg
 .mono/
 data_*/
 mono_crash.*.json
+Godot_v3.6.3-stable_win64.exe
