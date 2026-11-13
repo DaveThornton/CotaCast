@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Karaoke_Night.png-ff5305cc56540c8e80c326a5d56b0d46.stex"
+path="res://.import/Karaoke_Night.png-58f513c11a472d40170661a701fb8d3a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://GFX/Ads/ad_02/Karaoke_Night.png"
-dest_files=[ "res://.import/Karaoke_Night.png-ff5305cc56540c8e80c326a5d56b0d46.stex" ]
+source_file="res://GFX/Ads/ad_04/Karaoke_Night.png"
+dest_files=[ "res://.import/Karaoke_Night.png-58f513c11a472d40170661a701fb8d3a.stex" ]
 
 [params]
 

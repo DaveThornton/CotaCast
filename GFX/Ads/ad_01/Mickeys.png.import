@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/FireBall_Ignite.png-117bd771d249e6985fcffa455fc2a052.stex"
+path="res://.import/Mickeys.png-cffd64b43e6e5dd6e9f0e0704b19d631.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://GFX/Ads/Old/FireBall_Ignite.png"
-dest_files=[ "res://.import/FireBall_Ignite.png-117bd771d249e6985fcffa455fc2a052.stex" ]
+source_file="res://GFX/Ads/ad_01/Mickeys.png"
+dest_files=[ "res://.import/Mickeys.png-cffd64b43e6e5dd6e9f0e0704b19d631.stex" ]
 
 [params]
 

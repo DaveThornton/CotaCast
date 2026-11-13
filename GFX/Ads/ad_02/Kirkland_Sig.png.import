@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Bingo Night.png-ffc7cc1f418d499c8415530fe5b2bb7a.stex"
+path="res://.import/Kirkland_Sig.png-d11417f4e8f1c85c1d25deb0f671f286.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://GFX/Ads/ad_02/Bingo Night.png"
-dest_files=[ "res://.import/Bingo Night.png-ffc7cc1f418d499c8415530fe5b2bb7a.stex" ]
+source_file="res://GFX/Ads/ad_02/Kirkland_Sig.png"
+dest_files=[ "res://.import/Kirkland_Sig.png-d11417f4e8f1c85c1d25deb0f671f286.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Fresca_Hard.png-81746831b2f6bc385f41b3ffbfd6ad87.stex"
+path="res://.import/Open Mic.png-d8a359ab61fb9e3aadeb808478c377b0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://GFX/Ads/ad_00/Fresca_Hard.png"
-dest_files=[ "res://.import/Fresca_Hard.png-81746831b2f6bc385f41b3ffbfd6ad87.stex" ]
+source_file="res://GFX/Ads/ad_04/Open Mic.png"
+dest_files=[ "res://.import/Open Mic.png-d8a359ab61fb9e3aadeb808478c377b0.stex" ]
 
 [params]
 

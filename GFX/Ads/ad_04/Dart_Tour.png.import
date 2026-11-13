@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/FireBall_Ignite.png-40356c9e5f110aa39f09b6cb123e7ad7.stex"
+path="res://.import/Dart_Tour.png-5dd029f03ec5bc3eea1355c0fe3038e8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://GFX/Ads/ad_00/FireBall_Ignite.png"
-dest_files=[ "res://.import/FireBall_Ignite.png-40356c9e5f110aa39f09b6cb123e7ad7.stex" ]
+source_file="res://GFX/Ads/ad_04/Dart_Tour.png"
+dest_files=[ "res://.import/Dart_Tour.png-5dd029f03ec5bc3eea1355c0fe3038e8.stex" ]
 
 [params]
 

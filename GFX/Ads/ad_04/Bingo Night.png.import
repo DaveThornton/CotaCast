@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Pub_TNG.png-d616eb5f451cd662191e4ff6e8c59018.stex"
+path="res://.import/Bingo Night.png-e4c2c0b0c71e44a39a92394760561ac3.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://GFX/Ads/ad_00/Pub_TNG.png"
-dest_files=[ "res://.import/Pub_TNG.png-d616eb5f451cd662191e4ff6e8c59018.stex" ]
+source_file="res://GFX/Ads/ad_04/Bingo Night.png"
+dest_files=[ "res://.import/Bingo Night.png-e4c2c0b0c71e44a39a92394760561ac3.stex" ]
 
 [params]
 

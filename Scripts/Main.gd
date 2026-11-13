@@ -11,6 +11,14 @@ var current_scene_node:Node2D = null
 func _ready():
 	next_screen()
 
+func _input(event):
+	if event.is_action_pressed("Escape"):
+		get_tree().quit()
+	elif event.is_action_pressed("Next"):
+		current_scene_node.next()
+	elif event.is_action_pressed("Prev"):
+		current_scene_node.prev()
+
 func next_screen():
 	load_settings()
 	current_screen += 1
@@ -18,14 +26,18 @@ func next_screen():
 		current_screen = 0
 	var scene = get_scene(screen_order[current_screen])
 	current_scene_node = scene
+	scene.load_next_image()
 	scene.my_turn()
 
-
-func _input(event):
-	if event.is_action_pressed("Escape"):
-		get_tree().quit()
-	elif event.is_action_pressed("Next"):
-		current_scene_node._on_Timer_timeout()
+func prev_screen():
+	load_settings()
+	current_screen -= 1
+	if current_screen < 0:
+		current_screen = screen_order.size() - 1
+	var scene = get_scene(screen_order[current_screen])
+	current_scene_node = scene
+	scene.load_prev_image()
+	scene.my_turn()
 
 func load_csv(file_path:String):
 	var file = File.new()

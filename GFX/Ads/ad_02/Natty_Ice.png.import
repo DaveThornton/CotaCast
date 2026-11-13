@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Pool Tournament.png-a71f2dc5ad3783d72dd08afedd30e3c3.stex"
+path="res://.import/Natty_Ice.png-0a8d51015816a33e9ec7b90df5603b93.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://GFX/Ads/ad_02/Pool Tournament.png"
-dest_files=[ "res://.import/Pool Tournament.png-a71f2dc5ad3783d72dd08afedd30e3c3.stex" ]
+source_file="res://GFX/Ads/ad_02/Natty_Ice.png"
+dest_files=[ "res://.import/Natty_Ice.png-0a8d51015816a33e9ec7b90df5603b93.stex" ]
 
 [params]
 

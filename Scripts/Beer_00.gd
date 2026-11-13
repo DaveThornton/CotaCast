@@ -181,6 +181,21 @@ func get_label_position(number:int) -> Vector2:
 		17: return Vector2(-500,0)
 		_: return Vector2(0,744)
 
-func _on_Timer_timeout():
+func next():
 	self.visible = false
+	timer.stop()
 	main.next_screen()
+
+func prev():
+	self.visible = false
+	timer.stop()
+	main.prev_screen()
+
+func _on_Timer_timeout():
+	next()
+
+func load_next_image():
+	pass
+
+func load_prev_image():
+	pass

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Mickeys.png-414fb47ab02e2177043ce4da4cff2421.stex"
+path="res://.import/Key_Stone_Apple.png-d9d793339be471b931e190d3451d4ea9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://GFX/Ads/ad_00/Mickeys.png"
-dest_files=[ "res://.import/Mickeys.png-414fb47ab02e2177043ce4da4cff2421.stex" ]
+source_file="res://GFX/Ads/ad_02/Key_Stone_Apple.png"
+dest_files=[ "res://.import/Key_Stone_Apple.png-d9d793339be471b931e190d3451d4ea9.stex" ]
 
 [params]
 

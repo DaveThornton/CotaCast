@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Grab_Some_Snacks.png-2bbcb6286593f9e15b5cc08bec2525e6.stex"
+path="res://.import/Fresca_Hard.png-781a9e54d949c40e14704635004dea2f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://GFX/Ads/ad_00/Grab_Some_Snacks.png"
-dest_files=[ "res://.import/Grab_Some_Snacks.png-2bbcb6286593f9e15b5cc08bec2525e6.stex" ]
+source_file="res://GFX/Ads/ad_02/Fresca_Hard.png"
+dest_files=[ "res://.import/Fresca_Hard.png-781a9e54d949c40e14704635004dea2f.stex" ]
 
 [params]
 
